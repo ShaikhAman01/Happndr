@@ -67,7 +67,20 @@ export interface Event {
 }
 
 interface EventCardProps {
-  event: Event;
+  event: {
+    id: string;
+    title: string;
+    description: string;
+    startTime?: string | Date;
+    endTime?: string | Date;
+    location: string;
+    websiteUrl?: string;
+    imageUrl?: string;
+    featured?: boolean;
+    categories?: Category[];
+    college?: College;
+    user?: User;
+  };
   viewMode?: "grid" | "list";
   onFavorite?: (eventId: string) => void;
   isFavorited?: boolean;
