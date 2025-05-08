@@ -15,6 +15,7 @@ import EventFilters from "@/components/events/EventFilters";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 
 interface Category {
+    id: string;
   name: string;
 }
 
