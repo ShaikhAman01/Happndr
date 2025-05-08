@@ -54,8 +54,8 @@ const sampleEvents: Event[] = [
     imageUrl: "/tech1.png",
     featured: true,
     categories: [
-      { name: "Tech Talk" },
-      { name: "Innovation" }
+      { id: "1", name: "Tech Talk" },
+      { id: "2", name: "Innovation" }
     ],
     college: {
       name: "MIT"
@@ -74,8 +74,8 @@ const sampleEvents: Event[] = [
     websiteUrl: "https://example.com/event2",
     imageUrl: "/tech2.png",
     categories: [
-      { name: "Workshop" },
-      { name: "Sustainability" }
+      { id: "3", name: "Workshop" },
+      { id: "4", name: "Sustainability" }
     ],
     college: {
       name: "Stanford University"
@@ -94,8 +94,8 @@ const sampleEvents: Event[] = [
     websiteUrl: "https://example.com/event3",
     imageUrl: "/tech3.jpeg",
     categories: [
-      { name: "Conference" },
-      { name: "Healthcare" }
+      { id: "5", name: "Conference" },
+      { id: "6", name: "Healthcare" }
     ],
     college: {
       name: "Harvard University"
@@ -114,8 +114,8 @@ const sampleEvents: Event[] = [
     websiteUrl: "https://example.com/event4",
     imageUrl: "/tech4.jpeg",
     categories: [
-      { name: "Hackathon" },
-      { name: "AI" }
+      { id: "7", name: "Hackathon" },
+      { id: "8", name: "AI" }
     ],
     college: {
       name: "UC Berkeley"
